@@ -2,7 +2,7 @@
 id: about
 name: About
 heading: Wie doet mee?
-subheading:
+subheading: abc
 image: "http://placehold.it/500x500"
 ---
 
