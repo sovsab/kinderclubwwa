@@ -2,7 +2,7 @@
 id: services
 name: Services
 heading: Nederlands als tweede taal
-subheading: 
+subheading: abc
 image: "http://placehold.it/500x500"
 ---
 
