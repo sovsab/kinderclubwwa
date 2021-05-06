@@ -1,9 +1,9 @@
 ---
 id: about
 name: About
-heading: This First Heading
-subheading: Will Catch Your Eye
+heading: Wie doet mee?
+subheading:
 image: "http://placehold.it/500x500"
 ---
 
-Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+Wie doet mee? In september beginnen we met de zaterdagschool 'De Kinderclub'. Hierop leren kinderen praktische Nederlandse taalvaardigheid. Ons doel is dat de kinderen hierna met hun Nederlandstalige familie kunnen communiceren. Ook besteden wij aandacht aan Nederlandse en Belgische feestdagen.
