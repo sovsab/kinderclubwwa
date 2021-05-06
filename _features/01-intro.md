@@ -1,5 +1,5 @@
 ---
-id: about
+id: intro
 name: Wie doet mee?
 heading: Wie doet mee?
 image: "http://placehold.it/500x500"
