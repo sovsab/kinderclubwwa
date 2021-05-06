@@ -1,9 +1,9 @@
 ---
 id: contact
 name: Contact
-heading: The Third Heading
-subheading: Will Seal the Deal.
+heading: Nieuwsgierig?
+subheading: 
 image: "http://placehold.it/500x500"
 ---
 
-Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+Nieuwsgierig? Op zaterdag 29 mei om _hh:mm_ houden wij een informatiebijeenkomst. Tijdens deze bijeenkomst zullen wij ons plan toelichten en uw vragen beantwoorden. Geeft u op via onderstaand formulier om op de hoogte te worden gehouden van uiteindelijke locatie. Die hangt van het weer af.
