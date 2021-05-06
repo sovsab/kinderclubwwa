@@ -2,7 +2,7 @@
 id: contact
 name: Contact
 heading: Nieuwsgierig?
-subheading: 
+subheading: abc
 image: "http://placehold.it/500x500"
 ---
 
