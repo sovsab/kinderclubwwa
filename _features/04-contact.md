@@ -1,6 +1,6 @@
 ---
 id: contact
-name: Contact
+name: Meer weten?
 heading: Nieuwsgierig?
 image: "http://placehold.it/500x500"
 ---
