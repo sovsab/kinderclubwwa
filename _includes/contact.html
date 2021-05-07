@@ -2,21 +2,25 @@
 <main>
   <div class="lead">
     <section>
-      <img class='{% cycle 'pull-right', 'pull-left' %}' src='{{ feature.image }}'>
-      <h2>{{ feature.heading }}</h2>
+      <img class='{% cycle 'pull-right', 'pull-left' %}' src='http://placehold.it/500x500'>
+      <h2>Contactformulier</h2>
       <form action="https://formspree.io/f/mknkoeak" method="POST">
-        <p>
-          <label>Uw naam:</label>
-          <input type="text" name="_name">
-        </p>
-        <p>
-          <label>Uw e-mailadres:</label>
-          <input type="email" name="_replyto">
-        </p>
-        <p>
-          <label>Uw bericht of vraag:</label>
-          <textarea name="message"></textarea>
-        </p>
+        <div style="width: 50%;">
+          <p>
+            <label>Uw naam:</label>
+            <input type="text" name="_name">
+          </p>
+          <p>
+            <label>Uw e-mailadres:</label>
+            <input type="email" name="_replyto">
+          </p>
+        </div>                                    
+        <div style="width: 50%;">
+          <p>
+            <label>Uw bericht of vraag:</label>
+            <textarea name="message"></textarea>
+          </p>
+        </div>
         <button type="submit">Send</button>
       </form>
     </section>
