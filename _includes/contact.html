@@ -1,44 +1,24 @@
 <!-- Contact form processed by Formspree -->
 <main>
   <div class="lead">
-    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
-    <script>
-      window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};    
-      formbutton("create", {
-        action: "https://formspree.io/f/mknkoeak",
-        title: "Contactformulier",
-        fields: [
-          { 
-            type: "text", 
-            label: "Naam:", 
-            name: "Name",
-            required: true,
-            placeholder: "Uw naam"
-          },
-          { 
-            type: "email", 
-            label: "Emailadres:", 
-            name: "emailaddress",
-            required: true,
-            placeholder: "Uw e-mailadres
-          },
-          {
-            type: "textarea",
-            label: "Bericht:",
-            name: "message",
-            placeholder: "Uw opmerking of vraag",
-          },
-          { type: "submit" }      
-        ],
-        styles: {
-          title: {
-            backgroundColor: "gray"
-          },
-          button: {
-            backgroundColor: "gray"
-          }
-        }
-      });
-    </script>
+    <section>
+      <img class='{% cycle 'pull-right', 'pull-left' %}' src='{{ feature.image }}'>
+      <h2>{{ feature.heading }}</h2>
+      <form action="https://formspree.io/f/mknkoeak" method="POST">
+        <p>
+          <label>Uw naam:</label>
+          <input type="text" name="_name">
+        </p>
+        <p>
+          <label>Uw e-mailadres:</label>
+          <input type="email" name="_replyto">
+        </p>
+        <p>
+          <label>Uw bericht of vraag:</label>
+          <textarea name="message"></textarea>
+        </p>
+        <button type="submit">Send</button>
+      </form>
+    </section>
   </div>
 </main>
