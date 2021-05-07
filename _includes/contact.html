@@ -4,15 +4,16 @@
     <section>
       <img class='{% cycle 'pull-right', 'pull-left' %}' src='http://placehold.it/500x500'>
       <h2>Contactformulier</h2>
+      <p style="text-align:right; color=red;">* required</p>
       <form action="https://formspree.io/f/mknkoeak" method="POST">
         <div style="width: 50%;">
           <p>
-            <label>Uw naam:</label>
-            <input type="text" name="_name">
+            <label>Uw naam:<sup style="color:red;">*</sup></label>
+            <input type="text" name="_name" required="true">
           </p>
           <p>
-            <label>Uw e-mailadres:</label>
-            <input type="email" name="_replyto">
+            <label>Uw e-mailadres:<sup style="color:red;">*</sup></label>
+            <input type="email" name="_replyto" required="true">
           </p>
         </div>                                    
         <div style="width: 50%;">
