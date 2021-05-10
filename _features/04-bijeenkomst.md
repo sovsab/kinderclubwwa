@@ -1,5 +1,5 @@
 ---
-id: contact
+id: bijeenkomst
 name: Meer weten?
 heading: Nieuwsgierig?
 image: "https://sovsab.github.io/kinderclubwwa/images/syrenkaMetTulp_500x500.png"
